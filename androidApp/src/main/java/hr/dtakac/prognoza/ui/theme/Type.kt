@@ -50,7 +50,7 @@ data class Typography(
             ),
             headlineSmall = TextStyle(
                 fontFamily = Manrope,
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.Medium,
                 fontSize = 42.sp,
                 letterSpacing = (-1.5).sp,
                 lineHeightStyle = LineHeightStyle(
@@ -61,7 +61,7 @@ data class Typography(
             ),
             titleLarge = TextStyle(
                 fontFamily = Manrope,
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.Medium,
                 fontSize = 22.sp,
                 letterSpacing = 0.sp,
             ),
@@ -73,7 +73,7 @@ data class Typography(
             ),
             titleMedium = TextStyle(
                 fontFamily = Manrope,
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.Medium,
                 fontSize = 18.sp,
                 letterSpacing = 0.25.sp
             ),
@@ -85,25 +85,25 @@ data class Typography(
             ),
             titleSmall = TextStyle(
                 fontFamily = Manrope,
-                fontWeight = FontWeight.SemiBold,
+                fontWeight = FontWeight.Medium,
                 fontSize = 16.sp,
                 letterSpacing = 0.25.sp
             ),
             body = TextStyle(
                 fontFamily = Manrope,
-                fontWeight = FontWeight.Normal,
+                fontWeight = FontWeight.Light,
                 fontSize = 16.sp,
                 letterSpacing = 0.sp
             ),
             bodySmall = TextStyle(
                 fontFamily = Manrope,
-                fontWeight = FontWeight.Normal,
+                fontWeight = FontWeight.Light,
                 fontSize = 14.sp,
                 letterSpacing = 0.sp
             ),
             label = TextStyle(
                 fontFamily = Manrope,
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.Medium,
                 fontSize = 14.sp,
                 letterSpacing = 1.sp
             )

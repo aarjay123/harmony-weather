@@ -13,19 +13,13 @@ android {
     namespace = "hr.dtakac.prognoza"
     compileSdk = AndroidConfig.compileSdk
     defaultConfig {
-        applicationId = "hr.dtakac.prognoza"
+        applicationId = "com.nugget.hiosweather"
         minSdk = AndroidConfig.minSdk
         targetSdk = AndroidConfig.targetSdk
-        versionCode = 21
+        versionCode = 2
         // Before pushing to release, make sure this value matches the latest one in CHANGELOG.md
-        versionName = "3.5.0"
+        versionName = "1.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        resourceConfigurations.addAll(listOf(
-            "ar-rSA", "cs-rCZ", "da-rDK", "de-rDE", "el-rGR", "en-rUS", "es-rES",
-            "fi-rFI", "fr-rFR", "hu-rHU", "it-rIT", "ja-rJP", "nl-rNL", "no-rNO",
-            "pl-rPL", "pt-rBR", "pt-rPT", "ro-rRO", "ru-rRU", "sv-rSE", "tr-rTR",
-            "uk-rUA", "zh-rCN", "zh-rTW", "hr-rHR"
-        ))
     }
 
     signingConfigs {
