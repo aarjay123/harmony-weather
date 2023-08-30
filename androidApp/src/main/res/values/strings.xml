@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Prognoza</string>
+    <string name="app_name" translatable="false">Harmony Weather</string>
 
     <!--Weather descriptions-->
     <string name="description_unknown">Unknown</string>

@@ -94,7 +94,7 @@ private class CurrentTemperatureView @JvmOverloads constructor(
     private var color: Int = Color.BLACK
 
     private val textPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-        typeface = context.resources.getFont(R.font.manrope_bold)
+        typeface = context.resources.getFont(R.font.manrope_medium)
         letterSpacing = -0.05f
     }
 
